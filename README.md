@@ -2,11 +2,11 @@
 **10/04/2021 e 14/04/2021**
 
 ## Objetivo
-Entender os princípios básicos de lógica de programação a partir da linguagem JavaScript, introdindo sua sintaxe básica
+Entender os princípios básicos de lógica de programação a partir da linguagem JavaScript, introduzindo sua sintaxe básica
 
 
 ## JavaScript: quem é, o que come, como se reproduz?
-![javascript](imagens/javascript.gif)
+<img scr="./imagens/javascript.gif">
 
 Antes de tudo, não tem nada a ver com Java - que é outra linguagem de programação que não veremos no curso.
 
@@ -23,7 +23,7 @@ Navegador (Google Chrome, Firefox, etc) e editor de texto (VS Code)
 ## O que é um algoritmo
 
 **Para entender algoritmo de forma não-convencional:** 
-> [Bubble-sort algorithm - Hungarian Dance](https://youtu.be/lyZQPjUT5B4)
+> [Bubble-sort algorithm - Hungarian Dance](https://youtu.be/lyZQPjUT5B4) <br>
 > [Exact Instructions Challenge](https://youtu.be/I8IK-yRmtP8)
 
 **Algoritmo é uma "receita"** para executarmos uma tarefa ou resolver algum problema. Utilizamos algoritmos no nosso dia-a-dia para a execução de alguma tarefa ou até mesmo resolver algum problema.
