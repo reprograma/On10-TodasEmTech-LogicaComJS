@@ -55,7 +55,7 @@ Com o navegador aberto como abrir o painel dedicado Console:
 - Pressione Ctrl+Shift+J (Windows/Linux) ou Cmd+Opt+J (Mac)
 - Clique com o botão direito do mouse em uma página web qualquer e clique na opção Inspecionar/Inspect, se o DevTools não estiver aberto no console pressione o botão do Console.
 
-<img src = 'images/console.png' width=200px >
+<img src = 'images/console.png' width=450px >
 
 #### console.log(), alert(), confirm e prompt
 
