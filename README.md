@@ -564,14 +564,14 @@ Dentro da função, os argumentos (os parâmetros) se comportam como **variávei
 
 ## Arrays
 
-Em Js, o Array representa uma lista de itens. Ele trabalha de uma forma indexada a partir de um valor inteiro começando com 0. Os tipos de dados que você pode colocar no Array são os mais variáveis possíveis, ou seja, uma estrutura heterogênea em que você pode colocar um inteiro, um boolean, um objeto ou outro Array, não existe restrição. Dito isso, a boa prática diz que você deve trabalhar com dados homogêneos dentro de um array.
+Em JavaScript, o Array representa uma lista de itens. Ele trabalha de uma forma indexada a partir de um valor inteiro começando com 0. Os tipos de dados que você pode colocar no Array são os mais variáveis possíveis, ou seja, uma estrutura heterogênea em que você pode colocar um inteiro, um boolean, um objeto ou outro Array, não existe restrição. Dito isso, a boa prática diz que você deve trabalhar com dados homogêneos dentro de um array.
 
 **Exemplo de Array**
 
 ```javascript
 let minhaSaladaDeFrutas = ['banana', 'maçã', 'uva', 'morango']
 
-let arrayHeterogenea = ['string', true, false, 988776, {objeto: objeto}, [1, 1, 2,3, 44, 5678] ]
+let arrayHeterogenea = ['string', true, false, 988776, {nome: 'mariazinha', idade: 12}, [1, 1, 2,3, 44, 5678] ]
 ```
 
 ### Acessando um item do array a partir do seu índice:
