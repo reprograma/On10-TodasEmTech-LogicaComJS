@@ -108,8 +108,6 @@ Você precisa avisar ao navegador que existe um arquivo Javascipt e que ele prec
 
 O recurso utilizado nos programas para escrever e **ler dados da memória do computador** é conhecido como variável, que é simplesmente um espaço na memória, o qual reservamos e damos um nome. Por exemplo, podemos criar uma variável chamada "idade" para armazenar a idade de uma pessoa. Você pode imaginar uma variável como uma gaveta "etiquetada" em um armário.
 
-<img src="assets/var.png">
-
 Toda vez que precisarmos armazenar e recuperar dados, utilizaremos variáveis.
 
 No Javascript temos 3 maneiras de usar variáveis:
