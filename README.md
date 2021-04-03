@@ -7,7 +7,7 @@ Entender os princípios básicos de lógica de programação a partir da linguag
 
 ## JavaScript: o que é?
 
-<img scr= "images/javascript.gif" width = 450px>
+<img scr="images/giphy.gif" width = 450px>
 
 Antes de tudo, não tem nada a ver com Java - que é outra linguagem de programação que não veremos no curso.
 
