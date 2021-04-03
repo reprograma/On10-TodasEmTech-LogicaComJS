@@ -5,8 +5,8 @@
 Entender os princípios básicos de lógica de programação a partir da linguagem JavaScript, introduzindo sua sintaxe básica
 
 
-## JavaScript: quem é, o que come, como se reproduz?
-<img scr="./imagens/javascript.gif">
+## JavaScript: o que é?
+<img scr="images/javascript.gif">
 
 Antes de tudo, não tem nada a ver com Java - que é outra linguagem de programação que não veremos no curso.
 
