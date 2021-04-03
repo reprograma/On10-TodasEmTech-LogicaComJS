@@ -7,9 +7,9 @@ Entender os princípios básicos de lógica de programação a partir da linguag
 
 ## JavaScript: o que é?
 
-Antes de tudo, não tem nada a ver com Java - que é outra linguagem de programação que não veremos no curso.
-
 <img scr = 'images/giphy.gif' width = 450px>
+
+Antes de tudo, não tem nada a ver com Java - que é outra linguagem de programação que não veremos no curso.
 
 JavaScript é hoje a principal linguagem de programação web, para client-side appliations, podendo também ser utilizada no lado do servidor com auxílio do node.js. A linguagem foi criada em 1995, pelo grupo Netscape Communications.
 
@@ -27,22 +27,22 @@ Navegador (Google Chrome, Firefox, etc) e editor de texto (VS Code)
 > [Bubble-sort algorithm - Hungarian Dance](https://youtu.be/lyZQPjUT5B4) <br>
 > [Exact Instructions Challenge](https://youtu.be/I8IK-yRmtP8)
 
-**Algoritmo é uma "receita"** para executarmos uma tarefa ou resolver algum problema. Utilizamos algoritmos no nosso dia-a-dia para a execução de alguma tarefa ou até mesmo resolver algum problema.
+**Algoritmo é uma "receita"** para executarmos uma tarefa ou resolver algum problema. Utilizamos algoritmos no nosso dia-a-dia para a execução de alguma tarefa ou até mesmo para resolver algum problema.
 
-Para fazer um computador, fazer qualquer coisa, você precisa escrever um programa de computador. Para escrever um programa de computador, você tem que dizer ao computador, passo a passo, exatamente o que você quer que ele faça. O computador "executa" o programa, seguindo cada etapa mecanicamente, para atingir o objetivo final.
+Para escrever um programa de computador, você tem que dizer ao computador, passo a passo, exatamente o que você quer que ele faça. O computador "executa" o programa, seguindo cada etapa mecanicamente, para atingir o objetivo final.
 
 **Alguns exemplos de algoritmos que podemos citar: receitas culinárias, manual de instrução de aparelhos e funções matemáticas.**
 
 Pense na receita culinária, por exemplo. Ela tem os ingredientes necessários **(dados de entrada)**, passo a passo para realizar a receita **(processamento ou instruções lógicas)** e o prato finalizado **(saída esperada)**. 
 
-Um algoritmo, portanto, conta com a entrada (input), com o processamento desses dados e saída (output) de informações.
+<img src="images/flow-2.png">
+
+Um algoritmo, portanto, conta com a entrada **(input)**, com o processamento desses dados e saída **(output)** de informações.
 
 As estruturas de um algoritmo são:
 
 - **variáveis**: são as informações de entrada inseridas que determinam aonde o algoritmo poderá ir. As mais comuns são texto, inteiro, lógico e real;
 - **comandos de repetição***: consiste no uso de “se” e “enquanto”, para que o algoritmo saiba o que fazer quando determinados processos ocorrerem e o que fazer se eles mudarem.
-
-<img src="images/flow-2.png">
 
 
 ### Ferramentas para testar o código
@@ -86,7 +86,7 @@ O `prompt` é um alerta que nos oferece, além da lógica de botões, um input p
 ```js
 let nome = 'Digite o seu nome';
 prompt(nome);
-
+```
 
 ## Referenciando o JavaScript dentro do HTML
 
@@ -106,23 +106,23 @@ Você precisa avisar ao navegador que existe um arquivo Javascipt e que ele prec
 
 ## Variáveis e constantes
 
-O recurso utilizado nos programas para escrever e **ler dados da memória do computador** é conhecido como variável, que é simplesmente um espaço na memória o qual reservamos e damos um nome. Por exemplo, podemos criar uma variável chamada "idade" para armazenar a idade de uma pessoa. Você pode imaginar uma variável como uma gaveta "etiquetada" em um armário.
+O recurso utilizado nos programas para escrever e **ler dados da memória do computador** é conhecido como variável, que é simplesmente um espaço na memória, o qual reservamos e damos um nome. Por exemplo, podemos criar uma variável chamada "idade" para armazenar a idade de uma pessoa. Você pode imaginar uma variável como uma gaveta "etiquetada" em um armário.
 
 <img src="assets/var.png">
 
-Toda vez que precisarmos armezanar e recuperar dados utilizaremos variáveis.
+Toda vez que precisarmos armazenar e recuperar dados, utilizaremos variáveis.
 
 No Javascript temos 3 maneiras de usar variáveis:
-- var (no console vamos usar essa)
+- var
 - let
 - const 
 
 ```javascript
-var numero = 1
-var texto = "Javascript!!!"
+let numero = 1
+let texto = "Javascript!!!"
 ```
 
-Declarando variáveis
+### Declarando variáveis
 
 Um identificador JavaScript deve começar com: 
 - uma letra
@@ -134,7 +134,7 @@ Os caracteres subsequentes podem também ser
 - letras incluem caracteres de "A" a "Z" (maiúsculos)
 - caracteres de "a" a "z" (minúsculos)
 
-Uma varivável não pode ser uma palavra reservada, [clique aqui para saber quais são:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords)
+Uma variável não pode ser uma palavra reservada, [clique aqui para saber quais são](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords)
 
 
 ## Tipos de dados
@@ -175,7 +175,7 @@ null
 ```
 
 ```javascript
-var y = null;
+let y = null;
 console.log(y)
 ```
 
@@ -186,7 +186,7 @@ undefined
 ```
 
 ```javascript
-var x;
+let x;
 console.log(x)
 ```
 
@@ -202,8 +202,8 @@ O operador de atribuição básico é o igual (=), que atribui o valor do operan
 
 #### Igual
 ```javascript
-var y = 7;
-var x = y; // x é igual à 7
+let y = 7;
+let x = y; // x é igual à 7
 ```
 
 ### Operadores Aritméticos
@@ -211,27 +211,27 @@ var x = y; // x é igual à 7
 #### Adição (+)
 
 ```javascript
-var y = 7;
-var x = 3;
-var resultado = y + x 
+let y = 7;
+let x = 3;
+let resultado = y + x 
 console.log(resultado) // 10
 ```
 
 #### Subtração (-)
 
 ```javascript
-var y = 5;
-var x = 2;
-var resultado = y - x 
+let y = 5;
+let x = 2;
+let resultado = y - x 
 console.log(resultado) // 3
 ```
 
 #### Multiplicação(*)
 
 ```javascript
-var y = 4;
-var x = 5;
-var resultado = y * x 
+let y = 4;
+let x = 5;
+let resultado = y * x 
 console.log(resultado) // 20
 ```
 
@@ -240,9 +240,9 @@ O operador de divisão produz o quociente de seus operandos onde o operando da e
 
 
 ```javascript
-var y = 10;
-var x = 2;
-var resultado = y / x 
+let y = 10;
+let x = 2;
+let resultado = y / x 
 console.log(resultado) // 5
 ```
 
@@ -250,29 +250,31 @@ console.log(resultado) // 5
 O operador módulo retorna o resto inteiro da divisão de um numero pelo outro.
 
 ```javascript
-var y = 10;
-var x = 2;
-var resultado = y % x 
+let y = 10;
+let x = 2;
+let resultado = y % x 
 console.log(resultado) // 0
 ```
 
-<!-- incremento (++)
-decremento (--)
-expoente (**)
+#### Sintaxe encurtada:
+Incremento (++)
+Decremento (--)
+Expoente (**)
 
-abreviados
+abreviados:
 +=
 -=
 *= 
-/=  -->
+/= 
+
 ### Operadores de Comparação - Relacional e Igualdade
 
 #### == Igual 
 Retorna verdadeiro caso os operandos sejam iguais.	
 
 ```javascript
-3 == var1
-"3" == var1
+3 == let1
+"3" == let1
 3 == '3'
 ```
 
@@ -280,21 +282,21 @@ Retorna verdadeiro caso os operandos sejam iguais.
 Retorna verdadeiro caso os operandos não sejam iguais.	
 
 ```javascript
-var1 != 4
-var2 != "3"
+let1 != 4
+let2 != "3"
 ```
 #### === Estritamente igual 
 Retorna verdadeiro caso os operandos sejam iguais e do mesmo tipo. Veja também Object.is e igualdade em JS.
 
 ```javascript
-3 === var1
+3 === let1
 ```
 
 #### !== Estritamente não igual 
 Retorna verdadeiro caso os operandos não sejam iguais e/ou não sejam do mesmo tipo.
 
 ```javascript
-var1 !== "3"
+let1 !== "3"
 3 !== '3'
 ```
 #### > maior que
@@ -387,7 +389,7 @@ Temos uma condição (Se amanhã fizer sol) para executar uma ação (viajar par
 
 ```javascript
 // Variável booleana verdadeira
-var sol = true;
+let sol = true;
 
 // Condição
 if ( sol ) {
@@ -417,7 +419,7 @@ if ( sol ) {
 
 ```javascript
 // Variável booleana verdadeira
-var hora = 8;
+let hora = 8;
 
 // Condição
 if ( hora <= 12 ) {
@@ -432,27 +434,12 @@ if ( hora <= 12 ) {
 }
 ```
 
-```javascript
-if ( condição ) {
-	// Ação
-} else if ( outra condição ) {
-	// Ação
-} else if ( outra condição ) {
-	// Ação
-} else if ( outra condição ) {
-	// Ação
-} else if ( quantas condições quiser ) {
-	// Ação
-} else {
-	// Ação final se nenhuma condição for verdadeira
-}
-```
 
-### Estrutura switch case
+### Switch case
 Se a condição for correspondida, o programa executa as instruções asssociadas. Se múltiplos casos corresponderem o valor, o primeiro caso que corresponder é selecionado, mesmo se os casos não forem iguais entre si.
 
 ```javascript
-var dia = 'Segunda';
+let dia = 'Segunda';
 
 switch ( dia ) {
 	case 'Segunda':
@@ -491,9 +478,9 @@ Se você esquecer um break então o script irá rodar a partir do caso onde o cr
 O operador condicional (ternário) é o único operador JavaScript que possui três operandos. Este operador é frequentemente usado como um atalho para a instrução if.
 
 ```javascript
-var idade = 16;
+let idade = 16;
 
-var acesso = idade > 18 ? true : false;
+let acesso = idade > 18 ? true : false;
 ```
 
 A expressão antes do ? é a condição if, se for verdadeira o primeira ação é executada, caso contrário a segunda ação, a que vem depois dos :, é executada
@@ -501,8 +488,8 @@ A expressão antes do ? é a condição if, se for verdadeira o primeira ação 
 É muito útil para testes mais básicos em que se tem apenas uma única linha de código dentro do if ou do else.
 
 ```javascript
-var salario = 1000;
-var bonus = salario * (salario > 1000 ? 0.10 : 0.15);
+let salario = 1000;
+let bonus = salario * (salario > 1000 ? 0.10 : 0.15);
 ```
 
 ## Laços de repetição
@@ -550,7 +537,7 @@ while (i < 10) {
 }
 ```
 
-Ou sejam enquanto o valor da variável i for menor que 10, o console irá imprimir a frase "the number is (valor atual de i)".
+Ou seja, enquanto o valor da variável i for menor que 10, o console irá imprimir a frase "the number is (valor atual de i)".
 
 
 ## Funções e parâmetros
@@ -562,7 +549,7 @@ Os nomes das funções podem conter letras, dígitos, sublinhados e cifrões (me
 Os parênteses podem incluir nomes de parâmetros separados por vírgulas:
 **(parâmetro1, parâmetro2, ...)**
 
-O código a ser executado, pela função, é colocado entre colchetes: **{}**
+O código a ser executado pela função é colocado entre colchetes: **{}**
 
 ```javascript
 function nome(parametro1, parametro2, parametro3) {
@@ -579,17 +566,23 @@ Dentro da função, os argumentos (os parâmetros) se comportam como **variávei
 
 ## Arrays
 
-Em Js o Array é um objeto, um objeto especial com características próprias mas não existe o nativo. Ele trabalha de uma forma indexada a partir de um valor inteiro começando com 0. É uma estrutura dinâmica que cresce dinamicamente e diminui dinamicamente diferente de outras linguagens na qual tem uma estrutura estática e tamanho fixo. Os tipos de dados que você pode colocar no Array são os mais variáveis possíveis ou seja, uma estrutura heterogênea em que você pode colocar um inteiro, um boolean, um objeto ou outro Array, não existe restrição. Dito isso a boa prática diz que você deve trabalhar com dados homogêneos dentro de um array.
+Em Js, o Array representa uma lista de itens. Ele trabalha de uma forma indexada a partir de um valor inteiro começando com 0. Os tipos de dados que você pode colocar no Array são os mais variáveis possíveis, ou seja, uma estrutura heterogênea em que você pode colocar um inteiro, um boolean, um objeto ou outro Array, não existe restrição. Dito isso, a boa prática diz que você deve trabalhar com dados homogêneos dentro de um array.
 
-
-### Acessando um item do array
+**Exemplo de Array**
 
 ```javascript
-var arr = ['primeiro', 'segundo'];
+let minhaSaladaDeFrutas = ['banana', 'maçã', 'uva', 'morango']
+
+let arrayHeterogenea = ['string', true, false, 988776, {objeto: objeto}, [1, 1, 2,3, 44, 5678] ]
+```
+
+### Acessando um item do array a partir do seu índice:
+
+```javascript
+let arr = ['primeiro', 'segundo'];
 console.log(arr[0]);// exibe 'primeiro'
 console.log(arr[1]);// exibe 'segundo'
 ```
-
 
 ---
 ## Links interessantes para aprender e exercitar
