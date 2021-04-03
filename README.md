@@ -7,9 +7,9 @@ Entender os princípios básicos de lógica de programação a partir da linguag
 
 ## JavaScript: o que é?
 
-<img scr = 'images/giphy.gif' width = 450px>
-
 Antes de tudo, não tem nada a ver com Java - que é outra linguagem de programação que não veremos no curso.
+
+<img scr = 'images/giphy.gif' width = 450px>
 
 JavaScript é hoje a principal linguagem de programação web, para client-side appliations, podendo também ser utilizada no lado do servidor com auxílio do node.js. A linguagem foi criada em 1995, pelo grupo Netscape Communications.
 
