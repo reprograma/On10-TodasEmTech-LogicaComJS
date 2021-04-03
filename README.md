@@ -6,6 +6,7 @@ Entender os princípios básicos de lógica de programação a partir da linguag
 
 
 ## JavaScript: o que é?
+
 <img scr="images/javascript.gif">
 
 Antes de tudo, não tem nada a ver com Java - que é outra linguagem de programação que não veremos no curso.
@@ -54,7 +55,7 @@ Com o navegador aberto como abrir o painel dedicado Console:
 - Pressione Ctrl+Shift+J (Windows/Linux) ou Cmd+Opt+J (Mac)
 - Clique com o botão direito do mouse em uma página web qualquer e clique na opção Inspecionar/Inspect, se o DevTools não estiver aberto no console pressione o botão do Console.
 
-<img src = 'images/console.png'>
+<img src = 'images/console.png' width=200px >
 
 #### console.log(), alert(), confirm e prompt
 
