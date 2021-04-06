@@ -1,13 +1,13 @@
 # On10-TodasEmTech-LogicaComJS
 **10/04/2021 e 14/04/2021**
 
+Link para tirar dúvidas: http://dontpad.com/on10-logica-com-js
+
 ## Objetivo
 Entender os princípios básicos de lógica de programação a partir da linguagem JavaScript, introduzindo sua sintaxe básica
 
 
 ## JavaScript: o que é?
-
-<img scr = 'images/giphy.gif' width = 450px>
 
 Antes de tudo, não tem nada a ver com Java - que é outra linguagem de programação que não veremos no curso.
 
@@ -560,7 +560,6 @@ Os **parâmetros** da função estão listados entre parênteses () na definiç�
 Os **argumentos** da função são os **valores** recebidos pela função quando ela é chamada.
 
 Dentro da função, os argumentos (os parâmetros) se comportam como **variáveis** locais.
-
 
 ## Arrays
 
