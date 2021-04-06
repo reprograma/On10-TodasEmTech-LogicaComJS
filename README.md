@@ -1,7 +1,7 @@
 # On10-TodasEmTech-LogicaComJS
 **10/04/2021 e 14/04/2021**
 
-Link para tirar dúvidas: http://dontpad.com/on10-logica-com-js
+Board para escrever dúvidas/ comentários em aula: http://dontpad.com/on10-logica-com-js
 
 ## Objetivo
 Entender os princípios básicos de lógica de programação a partir da linguagem JavaScript, introduzindo sua sintaxe básica
