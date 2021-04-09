@@ -46,7 +46,7 @@
 5. Dentro da pasta exercícios para casa, faça uma cópia da pasta exercícios e renomeie com seu nome
    ```
     ├── exercicios-aula
-    ├── exercicios-para-casa
+    ├── exercicios-casa
     |  ├── exercicios
     |  ├── viviane-miranda // exemplo como deve ficar
    ```
