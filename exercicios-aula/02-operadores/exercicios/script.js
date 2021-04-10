@@ -25,12 +25,19 @@
 
   Obs: Utilizar o Number() para converter o tipo da variável em número.
 */ 
+  //let numero1 = Number ( prompt ("insira um número"));
+  //let numero2  = Number( prompt ("insira outro número:"));
+
+  //let soma = numero1 + numero2;
+
+ // alert("a soma dos seus dois números é: " + soma);
+ //alert(`a soma dos seus dois números é ${soma}`);
 
 
 
 /* 
   2. Crie um algoritmo que leia o valor de um jantar, calcule e informe o valor da taxa do garçom (10%) e o valor total a ser pago.
-
+ 
   - Entrada de dados: Ler o valor do jantar
   - Processamento: calcular a taxa do garçom e valor total a ser pago.
   - Saída: Exibir no console o valor do jantar, taxa do garçom e total a pagar
@@ -38,15 +45,27 @@
   Obs: Utilizar o Number() para converter o tipo para numero dos dados.
 */
 
+/*let valorJantar = Number (prompt("Insira o valor do jantar"));
+let taxaDeServico = 0.1;
+let valorFinal = valorJantar + (taxaDeServico*valorJantar);
+
+console.log(`O valor do jantar é: R$${valorJantar}, o valor da taxa de serviço é de: ${taxaDeServico*100}% e o valor final é de: R$${valorFinal}`);*/
+
 
 
 // 4. Declare uma nova variável chamada `calculadora`, e adicione uma instrução somando os valores 10 e 5.
 
-
+let calculadora = 10 + 5;
+console.log(calculadora);
 // 5.  Atribua à variável `calculadora` todo o valor dela, somando 1, usando o operador de soma abreviado.
 
+calculadora++;
 
 // 6. Atribua à variável `calculadora` todo o valor dela, multiplicando por 3, usando o operador de multiplicação abreviado.
+
+calculadora *= 3; 
+
+console.log (calculadora).
 
 // 7. Qual é o valor da variável `calculadora` até aqui?
 
