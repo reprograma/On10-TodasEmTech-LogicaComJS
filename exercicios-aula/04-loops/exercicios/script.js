@@ -17,6 +17,9 @@
   inclusive esses 2
 */
 
+for (let contador = 0; contador <= 100; contador++ ) {
+  console.log(contador);
+}
 
 
 /* 
@@ -31,6 +34,12 @@
 /* 
   3. Utilizando a estrutura de repetição while, mostre no console apenas os números ímpares de 50 ao 120.
 */
+
+let (contador = 50;)
+
+
+
+
 
 
 
