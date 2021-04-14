@@ -14,9 +14,9 @@
   1. Elabore um algoritmo que receba uma letra e determine se é uma vogal ou consoante (Faça duas versões deste código, uma utilizando if-else e outra utilizando switch-case);
 */
 
-/* let letraEcolhida = prompt("Insira uma letra qualquer do alfabeto:").toLowerCase;
+/* let letraEscolhida = prompt("Insira uma letra qualquer do alfabeto:").toLowerCase;
 
-switch(letraEcolhida){
+switch(letraEscolhida){
   case "a":
   case "e":
   case "i":
@@ -31,7 +31,7 @@ switch(letraEcolhida){
 if(letraEscolhida ==="a" || letraEscolhida === "e" || letraEscolhida === "i" || letraEscolhida === "o" || letraEscolhida === "u"){
   console.log("A letra escolhida é uma vogal")
 } else {
-  console.log("A letra escolhida é uma conscoante")
+  console.log("A letra escolhida é uma consoante")
 }; */
 
 
