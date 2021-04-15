@@ -17,7 +17,7 @@
 
 
 /* 
-  1. Crie um algoritmo, que solicite ao usuário dois valores, calcule a soma desses números e mostre o resultado em um alerta.
+  //1. Crie um algoritmo, que solicite ao usuário dois valores, calcule a soma desses números e mostre o resultado em um alerta.
 
   - Entrada de dados: Ler dois números 
   - Processamento: calcular a soma 
@@ -25,6 +25,13 @@
 
   Obs: Utilizar o Number() para converter o tipo da variável em número.
 */ 
+// let numero1 = Number(prompt("insira um número"));
+// let numero2 = Number(prompt("insira outro número"));
+
+// let soma = numero1 + numero2;
+
+// alert("a soma dos seus dois números é: " + soma);
+//alert (`a soma dos seus dois números é ${soma}`);
 
 
 
@@ -37,18 +44,30 @@
 
   Obs: Utilizar o Number() para converter o tipo para numero dos dados.
 */
+// let valorJantar = Number(prompt("insira o valor do jantar"));
+// let taxaDeServico = 0.1;
+// let valorFinal = valorJantar + (taxaDeServico*valorJantar);
+
+// console.log (`O valor do jantar é: R$${valorJantar}, o valor da taxa de serviço é de: R$${taxaDeServico*100}%
+//  e o valor final é de: R$${valorFinal}`);
 
 
+// // 4. Declare uma nova variável chamada `calculadora`, e adicione uma instrução somando os valores 10 e 5.
+// let calculadora = 10 + 5;
+// //console.log(calculadora);
 
-// 4. Declare uma nova variável chamada `calculadora`, e adicione uma instrução somando os valores 10 e 5.
+// // 5.  Atribua à variável `calculadora` todo o valor dela, somando 1, usando o operador de soma abreviado.
+// //calculadora ++ outra opção de declarar
+// calculadora += 1;
 
 
-// 5.  Atribua à variável `calculadora` todo o valor dela, somando 1, usando o operador de soma abreviado.
+// // 6. Atribua à variável `calculadora` todo o valor dela, multiplicando por 3, usando o operador de multiplicação abreviado.
+// calculadora *= 3;
+// console.log(calculadora);
 
 
-// 6. Atribua à variável `calculadora` todo o valor dela, multiplicando por 3, usando o operador de multiplicação abreviado.
+// // 7. Qual é o valor da variável `calculadora` até aqui?
 
-// 7. Qual é o valor da variável `calculadora` até aqui?
-
+// console.log(calculadora)
 
 

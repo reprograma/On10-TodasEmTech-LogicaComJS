@@ -27,8 +27,12 @@
 /* 
   3. Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se ambos os números forem iguais, mostre uma mensagem no console "Os números são iguais";
 */
+  let numero1 = Number(prompt("Digite um número qualquer"));
+  let numero2 = Number(prompt("Digite outro número qualquer"));
 
-
+  if (numero1 > numero2){
+    console.log (`O ${numero1} `)
+  }
 /*
   4. Crie um algoritmo que receba três notas de um aluno, calcule sua média e mostre as seguintes mensagens de acordo com cada situação:
 
