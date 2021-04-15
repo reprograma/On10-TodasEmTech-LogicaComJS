@@ -13,7 +13,23 @@
 /* 
   1. Elabore um algoritmo que receba uma letra e determine se é uma vogal ou consoante (Faça duas versões deste código, uma utilizando if-else e outra utilizando switch-case);
 */
+/*let letraEscolhida = prompt("insira uma letra qualquer do alfabeto").toLowerCase();
 
+switch(letraEscolhida){
+  case "a": 
+  case "e": 
+  case "i":
+  case "o":
+  case "u":
+    break;
+  default:
+};
+
+if(letraEscolhida === "a" || letraEscolhida === "e" || letraEscolhida === "i" || letraEscolhida === "o" || letraEscolhida === "u"){
+  console.log("A letra escolhida é uma vogal")
+} else {
+  console.log("A letra escolhida é uma consoante")
+};*/
 
 
 
@@ -21,12 +37,52 @@
   2. Elabore um algoritmo que receba um número (1-7) e devolva o dia da semana correspondente;
 
 */
+/*
+let numeroEscolhido = prompt("Insira um numero de 1-7");
 
+switch(numeroEscolhido){
+  case "1": 
+  alert(`O dia correspondente ao número ${numeroEscolhido} é domingo.`)
+  break;
+  case "2": 
+  alert(`O dia correspondente ao número ${numeroEscolhido} é segunda.`)
+  break;
+  case "3": 
+  alert(`O dia correspondente ao número ${numeroEscolhido} é terça.`)
+  break;
+  case "4": 
+  alert(`O dia correspondente ao número ${numeroEscolhido} é quarta.`)
+  break;
+  case "5": 
+  alert(`O dia correspondente ao número ${numeroEscolhido} é quinta.`)
+  break;
+  case "6": 
+  alert(`O dia correspondente ao número ${numeroEscolhido} é sexta.`)
+  break;
+  case "7": 
+  alert(`O dia correspondente ao número ${numeroEscolhido} é sábado.`)
+  break;
+  default:
+    alert(`O número ${numeroEscolhido} não tem nenhum correspondente na semana.`)
+}
+*/
 
 
 /* 
   3. Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se ambos os números forem iguais, mostre uma mensagem no console "Os números são iguais";
 */
+/*let numero1 = Number(prompt("digite um número qualquer"));
+let numero2 = Number(prompt("Digite outro número qualquer"));
+
+if(numero1 > numero2){
+  console.log(`O ${numero1} é maior que o ${numero2}`)
+} else if(numero2 > numero1){
+  console.log('O ' + numero2 + ' é maior que o ' + numero1)
+} else if(numero1===numero2){
+  console.log(`O ${numero1} e o ${numero2} tem valores iguais`)
+} else{
+  console.log(`Os valores de entrada não são valores válidos`)
+};*/
 
 
 /*
@@ -41,3 +97,16 @@
   Alunos reprovados devem ver a mensagem: Que pena, você foi reprovado.
 */
 
+/*let nota1 = Number(prompt("escreva a primeira nota"));
+let nota2 = Number(prompt("escreva a segunda nota"));
+let nota3 = Number(prompt("escreva a terceira nota"));
+
+let mediaFinal = (nota1 + nota2 + nota3)/3;
+
+if(mediaFinal>=7){
+  alert("Parabéns, você foi aprovado, aproveite suas férias!")
+} else if(mediaFinal>=5 && mediaFinal<7){
+  alert("Você está de recuperação!")
+} else {
+  alert("Que pena, você foi reprovado.")
+}; */
