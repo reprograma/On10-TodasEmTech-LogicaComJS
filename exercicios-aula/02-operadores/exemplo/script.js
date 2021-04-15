@@ -6,7 +6,7 @@ let subtração = 10-5;
 console.log(subtração)
 
 let multiplaicação = 5*6;
-console.log(multiplaicação)
+console.log(multiplicação)
 
 let divisão = 13/5;
 console.log(divisão)
