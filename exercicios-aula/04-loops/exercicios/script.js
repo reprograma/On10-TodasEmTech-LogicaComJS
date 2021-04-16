@@ -17,6 +17,9 @@
   inclusive esses 2
 */
 
+for (let i = 0; i <= 100; i++) {
+  console.log(i);
+}
 
 
 /* 
@@ -25,13 +28,25 @@
   - Qual operador que retorna o resto da divisão? Vamos usar ele!
 */
 
+for(let j = 1; j <= 50; j++) {
+  if ((j % 2 == 0)) {
+    console.log(j);
+  }
+}
 
 
 
 /* 
   3. Utilizando a estrutura de repetição while, mostre no console apenas os números ímpares de 50 ao 120.
 */
+let num = 50;
 
+while ( num <= 120) {
+  if (num % 2 !== 0) {
+    console.log(num)
+  }
+  num += 1;
+}
 
 
 /* 
@@ -39,6 +54,12 @@
 repetição "while"
 */
  
+let a = 20;
+
+while ( a <= 30) {
+  console.log(a)
+  a += 1;
+}
 
 
 
@@ -47,3 +68,9 @@ repetição "while"
   4. Seu Miguel da vendinha da esquina, não sabe multiplicar. Faça para ele um programa que, dado um número, ele printe (console.log) a tabuada do mesmo de 1 a 10.
 
 */
+
+let numeroMultiplicado = Number(prompt("Digite um número"))
+
+for (let k = 1; k <= 10; k++) {
+  console.log(`${numeroMultiplicado} * ${k} = ${numeroMultiplicado*k}`)
+}
