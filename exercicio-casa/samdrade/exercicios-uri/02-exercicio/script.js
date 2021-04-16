@@ -1,16 +1,18 @@
 //- [Exercício 02](https://www.urionlinejudge.com.br/judge/pt/problems/view/1134)
 
-let nota1 = Number(prompt("escreva a primeira nota"));
-let nota2 = Number(prompt("escreva a segunda nota"));
-let nota3 = Number(prompt("escreva a terceira nota"));
+let nota1 = Number(prompt("alcool"));
+let nota2 = Number(prompt("gasolina"));
+let nota3 = Number(prompt("diesel"));
+let nota4 = Number(prompt("fim"));
 
-let mediaFinal = (nota1 + nota2 + nota3)/3;
+let mediaFinal = let nota4
 
-if(mediaFinal>=7){
-  alert("Parabéns, você foi aprovado, aproveite suas férias!")
-} else if(mediaFinal>=5 && mediaFinal<7){
-  alert("Você está de recuperação!")
-} else{
-  alert("Que pena, você foi reprovado.")
-};
+if(mediaFinal=4){
+  alert("Muito Obrigado!")
+} else if(mediaFinal<=9 && mediaFinal<4){
+  alert("Novo código!")
+}
+else(mediaFinal>4){
+  alert("Código Inválido")
+} 
 
