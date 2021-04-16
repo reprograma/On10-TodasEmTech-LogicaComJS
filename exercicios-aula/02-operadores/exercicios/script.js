@@ -47,7 +47,7 @@
 
 
 // 6. Atribua à variável `calculadora` todo o valor dela, multiplicando por 3, usando o operador de multiplicação abreviado.
-
+calculadora *=3; 
 // 7. Qual é o valor da variável `calculadora` até aqui?
 
 
