@@ -17,21 +17,28 @@
   inclusive esses 2
 */
 
-
-
+/*for(let contador = 0 ; contador <=100; contador++){
+  console.log(contador)
+}
 /* 
   2. Utilizando a estrutura de repetição for, mostre no console apenas os números pares de 1 ao 50.
   - Números pares são todos os números que divididos por 2 tem resto 0
   - Qual operador que retorna o resto da divisão? Vamos usar ele!
 */
+let contador = 2
 
+while(contador<=50 ){
+  if(contador%2==0){
+    console.log(contador)
+  }
+}
 
 
 
 /* 
   3. Utilizando a estrutura de repetição while, mostre no console apenas os números ímpares de 50 ao 120.
 */
-let contador = 50;
+/*let contador = 50;
 
 while(contador <= 120){
   if(contador%2!==0){
