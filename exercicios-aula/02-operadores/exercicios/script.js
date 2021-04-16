@@ -47,7 +47,7 @@
 // let taxaDeServico = 0.1;
 // let valorFinal = valorJantar + (taxaDeServico*valorJantar);
 
-// console.log(`O valor do jantar é R$${valorJantar}, o valor da taxa de serviço é de ${taxaDeServico*100}% e o valor final é de: R$${valorFinal}`);15
+// console.log(`O valor do jantar é R$${valorJantar}, o valor da taxa de serviço é de R$${taxaDeServico*100}% e o valor final é de: R$${valorFinal}`);
 
 
 // 4. Declare uma nova variável chamada `calculadora`, e adicione uma instrução somando os valores 10 e 5.
@@ -64,6 +64,6 @@ calculadora += 1;
 calculadora *= 3;
 
 // 7. Qual é o valor da variável `calculadora` até aqui?
-
+console.log(calculadora);
 
 
