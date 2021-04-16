@@ -1,4 +1,4 @@
-//[Exercício 04](https://www.urionlinejudge.com.br/judge/pt/problems/view/1009)
+//- [E1134xercício 02](https://www.urionlinejudge.com.br/judge/pt/problems/view/)
 
 let nota1 = Number(prompt("escreva a primeira nota"));
 let nota2 = Number(prompt("escreva a segunda nota"));
@@ -13,3 +13,4 @@ if(mediaFinal>=7){
 } else{
   alert("Que pena, você foi reprovado.")
 };
+

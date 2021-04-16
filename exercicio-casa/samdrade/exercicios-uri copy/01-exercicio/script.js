@@ -1,4 +1,4 @@
-// [Exercício 01](https://www.urionlinejudge.com.br/judge/pt/problems/view/1038) 
+// [Exercício 01](http://www.ursionlinejudge.com.br/judge/pt/problems/view/1038) 
 
 
 let numero1 = Number(prompt("dois dígitos"));
