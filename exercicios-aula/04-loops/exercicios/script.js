@@ -44,21 +44,12 @@ for(let contador = 1; contador<=50; contador++ ) {
 */
 
 let contador = 50;
-  while (contador <= 120) {
-  if(contador % 2 !== 0){
+while (contador <= 120) {
+  if (contador % 2 !== 0) {
     console.log(contador)
   }
-  contador+=1;
+  contador += 1;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -66,12 +57,30 @@ let contador = 50;
   3. Mostre os números de 20 a 30 no console (inclusive o 30), usando a estrutura de
 repetição "while"
 */
- 
+/*let contador = 20;
 
+while (contador <= 30) {
+  console.log(contador);
+  contador = contador + 1;
 
-
-
-/* 
-  4. Seu Miguel da vendinha da esquina, não sabe multiplicar. Faça para ele um programa que, dado um número, ele printe (console.log) a tabuada do mesmo de 1 a 10.
-
+}
 */
+
+  /* 
+    4. Seu Miguel da vendinha da esquina, não sabe multiplicar. Faça para ele um programa que, dado um número, ele printe (console.log) a tabuada do mesmo de 1 a 10.
+
+  */
+
+let tabuada = parseInt(prompt('Insira um número: '));
+for (contador; contador<=10; contador++){
+  console.log(`${tabuada}*${contador}=${tabuada*contador}`)
+}
+
+//let contador = 0;
+
+// while(contador<=10){
+//   console.log(`${tabuada}*${contador}=${tabuada*contador}`)
+//   contador++;
+// };
+
+
