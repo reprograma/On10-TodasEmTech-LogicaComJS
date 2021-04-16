@@ -2,7 +2,6 @@
 
 let codigoDoProduto = parseInt(prompt("Qual lanche desejado"));
 let quantidadeDoProduto = parseInt(prompt("Quantos deseja?"));
-let valorTotal = 0;
 
 
 if (codigoDoProduto === 1) {
