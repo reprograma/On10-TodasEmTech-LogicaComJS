@@ -14,13 +14,37 @@
   1. Elabore um algoritmo que receba uma letra e determine se é uma vogal ou consoante (Faça duas versões deste código, uma utilizando if-else e outra utilizando switch-case);
 */
 
+//   let letraEscolhida= prompt("insira uma letra qualquer do alfabeto").
+//   toLocaleLowerCase();
 
+//  switch(letraEscolhida){
+//    case "a":
+//    case "e": 
+//    case "i":
+//    case "o":
+//    case "u":
+//      console.log("Essa letra é uma vogal");
+//      break;
+//     default:
+//        console.log("Esaa letra pe uma consoante");
+//  }
 
-
+//   if(letraEscolhida === "a" || letraEscolhida === "e" || letraEscolhida === "i" || letraEscolhida === "o" || letraEscolhida === "u") {
+//     console.log("A letra escolhida é uma vogal")
+//   } else {
+//     console.log("A letra escolhida é uma consoante");
+//   }
 /* 
   2. Elabore um algoritmo que receba um número (1-7) e devolva o dia da semana correspondente;
 
 */
+
+// let numeroEscolhido = prompt("Insira um numero de 1-7");
+
+// switch(numeroEscolhido){
+//   case "1":
+//   alert(`O dia correspondente ao número ${numeroEscolhido} é domingo.`)  
+// }
 
 
 
