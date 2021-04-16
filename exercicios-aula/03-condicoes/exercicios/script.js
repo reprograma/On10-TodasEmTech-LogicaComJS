@@ -71,7 +71,7 @@ switch(numeroEscolhido){
   3. Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se ambos os números forem iguais, mostre uma mensagem no console "Os números são iguais";
 */
 
-let numero1 = Number(prompt("digite um número qualquer"));
+let numero1 = Number(prompt("Digite um número qualquer"));
 let numero2 = Number(prompt("Digite outro número qualquer"));
 
 if(numero1 > numero2){

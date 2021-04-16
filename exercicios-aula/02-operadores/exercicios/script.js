@@ -46,7 +46,6 @@ alert(`A soma dos seus dois números é: ${soma}`);
   Obs: Utilizar o Number() para converter o tipo para numero dos dados.
 */
 
-
 let valorJantar = Number(prompt("Insira o valor do jantar"));
 let taxaDeServico = 0.1;
 let valorFinal = valorJantar + (taxaDeServico*valorJantar);
