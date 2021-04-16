@@ -25,29 +25,29 @@
   - Números pares são todos os números que divididos por 2 tem resto 0
   - Qual operador que retorna o resto da divisão? Vamos usar ele!
 */
-let contador = 2
+//let contador = 2
 
-while(contador<=50 ){
-  if(contador%2==0){
-    console.log(contador)
-  }
-}
+//while(contador<=50 ){
+//  if(contador%2==0){
+//    console.log(contador)
+//  }
+//  contador+=2
+//}
 
 
 
 /* 
   3. Utilizando a estrutura de repetição while, mostre no console apenas os números ímpares de 50 ao 120.
 */
-/*let contador = 50;
 
-while(contador <= 120){
-  if(contador%2!==0){
+let contador = 50
+
+while(contador<=120){
+  if (contador%2!==0){
     console.log(contador)
   }
   contador+=1
-};
-
-
+}
 /* 
   3. Mostre os números de 20 a 30 no console (inclusive o 30), usando a estrutura de
 repetição "while"
