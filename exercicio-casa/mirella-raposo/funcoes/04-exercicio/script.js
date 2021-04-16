@@ -6,6 +6,8 @@ let maiorIdade = -(anoNascimento) + 2021;
 
 if (maiorIdade >= 18){
     alert(`Você tem ${maiorIdade}, portanto, é maior de idade.`);
-} if (maiorIdade < 18){ 
+} 
+
+if (maiorIdade < 18){ 
     alert(`Você tem ${maiorIdade}, portanto, é menor de idade.`);
 };
