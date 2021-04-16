@@ -24,7 +24,12 @@
   - Números pares são todos os números que divididos por 2 tem resto 0
   - Qual operador que retorna o resto da divisão? Vamos usar ele!
 */
-
+  //for(let contador = 1; contador<=50; contador ++){
+  // if(contador%2==0){
+  //   console.log(contador);
+  //  }
+  // contador++;
+  //}
 
 
 
@@ -39,7 +44,12 @@
 repetição "while"
 */
  
+// let contador = 20;
 
+//while(contador<=30){
+//  console.log(contador);
+//  contador=contador+1;
+//}
 
 
 
@@ -47,3 +57,15 @@ repetição "while"
   4. Seu Miguel da vendinha da esquina, não sabe multiplicar. Faça para ele um programa que, dado um número, ele printe (console.log) a tabuada do mesmo de 1 a 10.
 
 */
+
+let tabuada = parseInt(prompt('Insira um número'));
+let contador = 0;
+
+// while(contador<=10){
+//   console.log(`${tabuada}*${contador}=${tabuada*contador}`)
+//   contador++;
+// };
+
+for(contador; contador<=10; contador++){
+  console.log(`${tabuada}*${contador}=${tabuada*contador}`)
+}
