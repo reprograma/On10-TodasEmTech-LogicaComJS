@@ -5,7 +5,7 @@ let senhaCorreta = 170895;
 while(senha != senhaCorreta) {
  let senha = Number(prompt("Digite a senha de acesso:"));
     if (senha == senhaCorreta) {
-        alert("Acesso Permitido");
+        alert("Acesso Permitido!");
         break
     } else {
         console.log("Senha Inválida!");
