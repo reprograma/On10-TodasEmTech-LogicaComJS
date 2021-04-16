@@ -1,20 +1,27 @@
 // [Exercício 01](https://www.urionlinejudge.com.br/judge/pt/problems/view/1038) 
 
-let codigoDoLanche = parseInt(prompt("Qual o código do lanche desejado?"));
-let quantidadeDoLanche = parseInt(prompt("Quantos você deseja?"));
-let valorTotal;
+let codigoDoLanche = prompt ("Digite o código do lanche desejado: 1- Cachorro Quente | 2- X-salada | 3- X-Bacon | 4- Torrada simples | 5- Refrigerante");
+let quantidadeDoLanche = prompt ("Quantos lanches você deseja?");
 
-if (codigoDoLanche === 1) {
-  total = quantidadeDoLanche * 4.00;
-} else if (codigoDoLanche === 2) {
-  total = quantidadeDoLanche * 4.50;
-} else if (codigoDoLanche === 3) {
-  total = quantidadeDoLanche * 5.00;
-} else if (codigoDoLanche === 4) {
-  total = quantidadeDoLanche * 2.00;
-} else if (codigoDoLanche === 5) {
-  total = quantidadeDoLanche * 1.50;
-} else {
-  alert("opção inválida")
-}
-alert(`Total: R$ ${total.toFixed(2)}`)
+switch (codigoDoLanche) {
+    case "1":
+    valor = 4 * quantidadeDoLanche
+    break;
+    case "2":
+    valor = 4.50 * quantidadeDoLanche
+    break;
+    case "3":
+    valor = 5 * quantidadeDoLanche
+    break;
+    case "4":
+    valor = 2 * quantidadeDoLanche
+    break;
+    case "5":
+    valor = 1.50 * quantidadeDoLanche
+    break;
+    default: 
+    alert("O código digitado não corresponde a nenhum lanche. Por favor, insira um código válido.")
+    break;
+};
+
+alert ("O valor final é R$" + valor.toFixed(2));
