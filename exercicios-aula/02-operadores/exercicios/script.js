@@ -55,21 +55,21 @@
 
 // 4. Declare uma nova variável chamada `calculadora`, e adicione uma instrução somando os valores 10 e 5.
 
-let calculadora = 10 + 5;
+//let calculadora = 10 + 5;
 
 
 // 5.  Atribua à variável `calculadora` todo o valor dela, somando 1, usando o operador de soma abreviado.
 
-calculadora += 1;
+//calculadora += 1;
 
 
 // 6. Atribua à variável `calculadora` todo o valor dela, multiplicando por 3, usando o operador de multiplicação abreviado.
 
-calculadora *= 3;
+//calculadora *= 3;
 
 // 7. Qual é o valor da variável `calculadora` até aqui?
 
-console.log(calculadora);
+//console.log(calculadora);
 
 
 
