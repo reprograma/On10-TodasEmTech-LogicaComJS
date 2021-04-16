@@ -47,14 +47,12 @@ let waiterFee = (valeu * 10) / 100;
 
 console.log('The total to be paid to the waiter is R$ ' + waiterFee);
 
-// 4. Declare uma nova variável chamada `calculadora`, e adicione uma instrução somando os valores 10 e 5.
-let calculator = 10 + 5;
 // 5.  Atribua à variável `calculadora` todo o valor dela, somando 1, usando o operador de soma abreviado.
 calculator++;
 
 // 6. Atribua à variável `calculadora` todo o valor dela, multiplicando por 3, usando o operador de multiplicação abreviado.
-calculator *= 3;
+calculadora *= 3;
 // 7. Qual é o valor da variável `calculadora` até aqui?
 
-console.log(calculator);
+
 

@@ -25,10 +25,11 @@ switch (letter) {
   case 'i':
     break;
   case 'o':
-    break; case 'u':
-    return 'Its a vowel';
+    break;
+  case 'u':
+    console.log('Its a vowel');
   default:
-    return 'It is a consonant';
+    console.log('It is a consonant');
 }
 
 /*
@@ -39,22 +40,22 @@ let number = prompt('Enter the day of the week');
 
 switch (number) {
   case 1:
-    return `Sunday ${number}`;
+    console.log(`Sunday ${number}`);
   case 2:
-    return `Monday ${number}`;
+    console.log(`Monday ${number}`);
   case 3:
-    return `Tuesday ${number}`;
+    console.log(`Tuesday ${number}`);
   case 4:
-    return `Wednesday ${number}`;
+    console.log(`Wednesday ${number}`);
   case 5:
-    return `Thursday ${number}`;
+    console.log(`Thursday ${number}`);
   case 6:
-    return `Friday ${number}`;
+    console.log(`Friday ${number}`);
   case 7:
-    return ` Saturday ${number}`;
+    console.log(` Saturday ${number}`);
 
   default:
-    return `You entered the incorrect day of the week ${number}`;
+    console.log(`You entered the incorrect day of the week ${number}`);
 }
 
 
@@ -67,13 +68,13 @@ let number01 = Number(prompt('Enter the first number'));
 let number02 = Number(prompt('Enter second number'));
 
 if (number01 > number02) {
-  return 'Number 1 is greater';
+  console.log('Number 1 is greater');
 } else if (number01 < number02) {
-  return 'Number 2 is greater';
+  console.log('Number 2 is greater');
 } else if (number01 == number02) {
-  return 'The numbers are the same';
+  console.log('The numbers are the same');
 } else {
-  return 'Invalid typed value';
+  console.log('Invalid typed value');
 }
 /*
   4. Crie um algoritmo que receba três notas de um aluno, calcule sua média e mostre as seguintes mensagens de acordo com cada situação:
@@ -94,9 +95,9 @@ let result = (note1 + note2 + note3) / 3;
 
 
 if (result >= 7) {
-  return 'Approved 🥰';
+  console.log('Approved 🥰');
 } else if (result >= 5 && result < 7) {
-  return 'Recovery 🤔 ';
+  console.log('Recovery 🤔 ');
 } else {
-  return 'You failed 😩'
+  console.log('You failed 😩')
 }

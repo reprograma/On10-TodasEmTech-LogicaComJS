@@ -57,8 +57,7 @@ repetição "while"
 let cont = 20;
 
 while (cont <= 30) {
-  return cont;
-
+  console.log(cont);
 }
 
 
