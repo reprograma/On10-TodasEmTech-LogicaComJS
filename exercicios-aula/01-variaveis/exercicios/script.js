@@ -32,7 +32,7 @@ console.log(yearOfBirth);
 */
 
 var ILikeToProgram = true;
-console.log(ILkeToProgram);
+console.log(ILikeToProgram);
 
 /*
   5. Exiba no console os tipos das variáveis criadas a cima utilizando o operador typeof

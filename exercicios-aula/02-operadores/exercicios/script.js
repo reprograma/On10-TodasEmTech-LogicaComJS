@@ -24,9 +24,13 @@
   - Saída: exibir a soma dos valores
 
   Obs: Utilizar o Number() para converter o tipo da variável em número.
-*/ 
+*/
+let number1 = Number(prompt('Enter a value'));
+let number2 = Number(prompt('Enter another value'));
 
+let calculation = number1 + number2;
 
+console.log(`The value entered in the two entries was ${calculation}`);
 
 /* 
   2. Crie um algoritmo que leia o valor de um jantar, calcule e informe o valor da taxa do garçom (10%) e o valor total a ser pago.
@@ -38,17 +42,19 @@
   Obs: Utilizar o Number() para converter o tipo para numero dos dados.
 */
 
+let value = Number(prompt('Enter the value of your dinner'));
+let waiterFee = (valeu * 10) / 100;
 
+console.log('The total to be paid to the waiter is R$ ' + waiterFee);
 
 // 4. Declare uma nova variável chamada `calculadora`, e adicione uma instrução somando os valores 10 e 5.
-
-
+let calculator = 10 + 5;
 // 5.  Atribua à variável `calculadora` todo o valor dela, somando 1, usando o operador de soma abreviado.
-
+calculator++;
 
 // 6. Atribua à variável `calculadora` todo o valor dela, multiplicando por 3, usando o operador de multiplicação abreviado.
-calculadora *=3; 
+calculator *= 3;
 // 7. Qual é o valor da variável `calculadora` até aqui?
 
-
+console.log(calculator);
 
