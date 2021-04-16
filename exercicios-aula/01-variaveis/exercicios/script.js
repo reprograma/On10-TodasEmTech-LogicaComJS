@@ -8,7 +8,8 @@
 
  
 /*  1. Declare uma variável const com a mensagem 'Olá Mundo', exiba no console */
-
+const mensagem = "Olá mundo";
+console.log(mensagem);
 
 /* 
 
