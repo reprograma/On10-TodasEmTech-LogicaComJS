@@ -5,6 +5,6 @@ function parImpar(n){
     } else {
         return 'ímpar'
     }
-}
-
-alert(parImpar(prompt("digita um número:")))
+  }
+  
+  alert(parImpar(prompt("digite um número:")));
