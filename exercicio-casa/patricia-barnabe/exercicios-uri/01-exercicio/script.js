@@ -1,7 +1,7 @@
 // [Exercício 01](https://www.urionlinejudge.com.br/judge/pt/problems/view/1038) 
 
-let codigoDoLanche = prompt ("Digite o código do lanche desejado: 1- Cachorro Quente | 2- X-salada | 3- X-Bacon | 4- Torrada simples | 5- Refrigerante");
-let quantidadeDoLanche = prompt ("Quantos lanches você deseja?");
+let codigoDoLanche = Number(prompt("Digite o código do lanche desejado: 1- Cachorro Quente | 2- X-salada | 3- X-Bacon | 4- Torrada simples | 5- Refrigerante"));
+let quantidadeDoLanche = Number(prompt("Quantos lanches você deseja?"));
 
 switch (codigoDoLanche) {
     case "1":
@@ -24,4 +24,4 @@ switch (codigoDoLanche) {
     break;
 };
 
-alert ("O valor final é R$" + valor.toFixed(2));
+alert ("O valor total é R$" + valor.toFixed(2));

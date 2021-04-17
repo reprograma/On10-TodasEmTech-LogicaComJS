@@ -2,5 +2,5 @@
 let nome = prompt("Digite seu nome: ");
 
 function mensagem(nome) {
-    return "Olá, " + nome + " , Seja bem vinda!"
+    return alert ("Olá, " + nome + " , Seja bem vinda!")
 };
