@@ -26,6 +26,14 @@
   Obs: Utilizar o Number() para converter o tipo da variável em número.
 */ 
 
+let numero1 = Number("insira um número"));
+let numero2 = Number("insira outro número"));
+
+let soma = numero1 + numero2;
+
+// alert("a soma dos seus dois números é: " + soma);
+alert(`a soma dos seus dois números é ${soma}´);
+
 
 
 /* 

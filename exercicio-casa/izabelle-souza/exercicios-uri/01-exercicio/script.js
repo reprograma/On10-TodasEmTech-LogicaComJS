@@ -1,5 +1,6 @@
 // [Exercício 01](https://www.urionlinejudge.com.br/judge/pt/problems/view/1038) 
 
+
 const produto = [
     {
       id: 1,
@@ -34,3 +35,6 @@ const produto = [
     return `Total: R$ ${precoFinal.toFixed(2)}`
   }
   
+  console.log(pedido(3, 2)) // Total: R$ 10.00
+  console.log(pedido(4, 3)) // Total: R$ 6.00
+  console.log(pedido(2, 3)) // Total: R$ 13.50
