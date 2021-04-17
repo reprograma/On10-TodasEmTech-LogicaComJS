@@ -33,7 +33,7 @@ else {
 switch(formaDePagamento){
  case 'dinheiro': 
   console.log('sua forma de pagamento foi dinheiro')
-   break;
+  break;
  case 'cartao':
   console.log('sua forma de pagamento foi cartao')
   break;
