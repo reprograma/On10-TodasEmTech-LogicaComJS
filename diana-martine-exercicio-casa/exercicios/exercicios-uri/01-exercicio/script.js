@@ -1,6 +1,6 @@
 // [Exercício 01](https://www.urionlinejudge.com.br/judge/pt/problems/view/1038) 
 
-conta();
+/* conta();
 
 function conta() {
   let item = parseInt(prompt("Insira aqui o número correspondente ao item"));
@@ -24,4 +24,4 @@ function conta() {
     conta();
   }
   document.writeln(`Total R$: ${total.toFixed(2)}`);
-}
+} */

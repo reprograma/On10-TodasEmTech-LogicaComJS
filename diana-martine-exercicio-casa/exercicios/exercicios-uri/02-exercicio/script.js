@@ -1,6 +1,6 @@
 //- [Exercício 02](https://www.urionlinejudge.com.br/judge/pt/problems/view/1134)
 
-document.writeln(`MUITO OBRIGADO<br>`);
+/* document.writeln(`MUITO OBRIGADO<br>`);
 
 preferedFuel();
 
@@ -43,4 +43,4 @@ function preferedFuel() {
     alert("Erro, escolha um número de 1 a 4 por favor");
     preferedFuel();
   }
-}
+} */
