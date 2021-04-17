@@ -9,9 +9,9 @@ Saída
 Para cada valor lido mostre a mensagem correspondente à descrição do problema.*/
 
 
-let number1 = Number(prompt("Entre com o produto: "));
+let number1 = Number(prompt('Entre com o produto: '));
 
 while (number1 != 2002) {
-    number1 = Number(prompt("Entre com a senha valida"));
+    number1 = Number(prompt('Entre com a senha valida'));
 }
 alert('Acesso Permitido');

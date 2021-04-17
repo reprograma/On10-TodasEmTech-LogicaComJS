@@ -66,8 +66,6 @@ while (cont <= 30) {
  
 */
 let multiplicationOne = Number(prompt('Enter the first number you want to multiply'));
-
-
 for (i = 0; i <= 10; i++) {
   console.log(`${multiplicationOne}*${i}=${i}`)
 }

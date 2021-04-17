@@ -14,8 +14,8 @@ Exemplo de Entrada      	Exemplo de Saída
 
 
 
-let number1 = Number(prompt("Entre com o produto: "));
-let number2 = Number(prompt("Entre com a quantidade do produto acima: "));
+let number1 = Number(prompt('Entre com o produto: '));
+let number2 = Number(prompt('Entre com a quantidade do produto acima: '));
 
 if (number1 == 1) {
     alert('Total: R$ ' + (4 * number2));

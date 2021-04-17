@@ -8,7 +8,7 @@ A entrada contém apenas valores inteiros e positivos.
 Saída
 Deve ser escrito a mensagem: "MUITO OBRIGADO" e a quantidade de clientes que abasteceram cada tipo de combustível, conforme exemplo.*/
 
-let number1 = Number(prompt("Entre com o produto: "));
+let number1 = Number(prompt('Entre com o produto: '));
 let clienteAlcool = 0;
 let clienteGasolina = 0;
 let clienteDisel = 0;
@@ -20,15 +20,15 @@ while
 
     if (number1 == 1) {
         clienteAlcool++;
-        number1 = Number(prompt("Entre com o produto: "));
+         number1 = Number(prompt('Entre com o produto: '));
 
     } else if (number1 === 2) {
         clienteGasolina++;
-        number1 = Number(prompt("Entre com o produto: "));
+         number1 = Number(prompt('Entre com o produto: '));
 
     } else if (number1 === 3) {
         clienteDisel++;
-        number1 = Number(prompt("Entre com o produto: "));
+        number1 = Number(prompt('Entre com o produto: '));
     }
 
 }
