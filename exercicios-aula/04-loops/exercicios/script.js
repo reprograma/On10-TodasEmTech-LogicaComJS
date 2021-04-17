@@ -17,6 +17,9 @@
   inclusive esses 2
 */
 
+/* for(let contador = 0; contador <= 100; contador ++) {
+  console.log(contador);
+}*/ 
 
 
 /* 
@@ -25,6 +28,14 @@
   - Qual operador que retorna o resto da divisão? Vamos usar ele!
 */
 
+let contador = 50;
+
+while(condicao <= 120){
+  if(contador %2!== 0){
+    console.log(contador)
+  }
+  contador+=1;
+}
 
 
 

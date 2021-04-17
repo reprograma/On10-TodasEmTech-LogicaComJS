@@ -14,6 +14,25 @@
   1. Elabore um algoritmo que receba uma letra e determine se é uma vogal ou consoante (Faça duas versões deste código, uma utilizando if-else e outra utilizando switch-case);
 */
 
+/* let letraEscolhida = prompt("Insira uma letra qualquer do alfabeto:").toLowerCase;
+
+switch(letraEscolhida){
+  case "a":
+  case "e":
+  case "i":
+  case "o":
+  case "u":
+    console.log("Essa letra é uma vogal")
+    break;
+  default:
+    console.log("Essa letra é uma consoante");
+}
+
+if(letraEscolhida ==="a" || letraEscolhida === "e" || letraEscolhida === "i" || letraEscolhida === "o" || letraEscolhida === "u"){
+  console.log("A letra escolhida é uma vogal")
+} else {
+  console.log("A letra escolhida é uma consoante")
+}; */
 
 
 
@@ -22,6 +41,33 @@
 
 */
 
+let numeroEscolhido = prompt("Insira um número de 1 a 7:")
+
+switch(numeroEscolhido){
+  case "1":
+  alert(`O dia correspondente ao número ${numeroEscolhido} é Domingo`)
+  break;
+  case "2":
+  alert(`O dia correspondente ao número ${numeroEscolhido} é Segunda`)
+  break;
+  case "3":
+  alert(`O dia correspondente ao número ${numeroEscolhido} é Terça`)
+  break;
+  case "4":
+  alert(`O dia correspondente ao número ${numeroEscolhido} é Quarta`)
+  break;
+  case "5":
+  alert(`O dia correspondente ao número ${numeroEscolhido} é Quinta`)
+  break;
+  case "6":
+  alert(`O dia correspondente ao número ${numeroEscolhido} é Sexta`)
+  break;
+  case "7":
+  alert(`O dia correspondente ao número ${numeroEscolhido} é Sábado`)
+  break;
+  default:
+  alert(`O número ${numeroEscolhido} não tem nenhum correspondente na semana`)
+}
 
 
 /* 
