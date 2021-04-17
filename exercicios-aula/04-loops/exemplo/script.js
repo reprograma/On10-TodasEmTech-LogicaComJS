@@ -2,8 +2,8 @@
 
 const arrayDeFrutas = ['morango', 'abacate', 'abacaxi', 'banana', 'morango']
 
-for(let i = 0; i < arrayDeFrutas.length; i++){
-   console.log(arrayDeFrutas[i])
+for (let i = 0; i < arrayDeFrutas.length; i++) {
+  console.log(arrayDeFrutas[i])
 }
 
 
@@ -11,7 +11,7 @@ for(let i = 0; i < arrayDeFrutas.length; i++){
 
 let senha = Number(prompt("Informe a sua senha"))
 
-while(senha !== 2020){
+while (senha !== 2020) {
   console.warn('sua senha está errada')
 }
 
