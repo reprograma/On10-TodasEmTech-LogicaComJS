@@ -16,8 +16,13 @@ while (codigo!="4"){
     }else if(codigo==="3"){
         d=d+1
         codigo = prompt('Digite o código')
-    }else{prompt
-        codigo = 
+    }else{
+        codigo = prompt('Digite um código válido entre 1 e 4')
     }
 }
+
+console.log('Muito Obrigado')
+console.log(`Alcool:${a}`)
+console.log(`Gasolina:${g}`)
+console.log(`Diesel:${d}`)
 
