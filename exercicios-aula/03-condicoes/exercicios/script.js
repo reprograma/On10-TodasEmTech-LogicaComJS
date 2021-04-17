@@ -14,6 +14,24 @@
   1. Elabore um algoritmo que receba uma letra e determine se é uma vogal ou consoante (Faça duas versões deste código, uma utilizando if-else e outra utilizando switch-case);
 */
 
+let letraEscolhida = prompt ("insira uma letra qualquer do alfabeto").toLowerCase();
+
+//switch (letraEscolhida){
+  //case "a":
+  //case "e":
+  //case "i":
+  //case "o":
+  //case "u":
+     //console.log ("Essa letra é uma vogal")
+     //break;
+     //default:
+       //console.log ("Essa letra é uma consoante")
+//};
+//if (letraEscolhida === "a" || letraEScolhida === "e" || letraEScolhida
+//=== "i" || letraEscolhida === "o" || letraEscolhida === "u") {
+//} else {
+// console.log ("A letra escolhida é uma consoante")
+//};
 
 
 
@@ -22,11 +40,43 @@
 
 */
 
+let scolhido = prompt ("Insira um numero de 1-7");
 
+switch(numeroEscolhido) {
+  case "1":
+alert (`O dia correspondente ao numero ${numeroEscolhido} é domingo.`) 
+  case "2":
+alert (`O dia correspondente ao numero ${numeroEscolhido} é sábado.`)
+  case "3":
+alert (`O dia correspondente ao numero ${numeroEscolhido} é quinta.`)
+  case "4":
+alert (`O dia correspondente ao numero ${numeroEscolhido} é quinta.`)
+  case "5":
+alert (`O dia correspondente ao numero ${numeroEscolhido} é quinta.`)
+  case "6":
+alert (`O dia correspondente ao numero ${numeroEscolhido} é quinta.`)
+  case "7":
+alert (`O dia correspondente ao numero ${numeroEscolhido} é quinta.`)
+case "8"
+}
 
+// console.log ("estou logando essa frase");
+// console.warn ("essa pode ser uma mensagem de alerta");
+// console.erro ("uma mensagem de erro");
 /* 
   3. Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se ambos os números forem iguais, mostre uma mensagem no console "Os números são iguais";
 */
+let numero1 = Number (prompt("digite um número qualquer"));
+let npumero = Number(prompt("digite outro número qualquer"))
+
+if (numero1 > numero2) {
+  console.log(`O ${numero1} é maior que o ${npumero2}`)
+} else if(numero2> numero1 log) {
+  console.log ('O' + numero2 + 'é maior que o' + numero1)
+} else if(numero1===numero2){
+  console.log ((`O ${numero1} é maior que o ${npumero2}`))
+  
+}
 
 
 /*
@@ -41,3 +91,14 @@
   Alunos reprovados devem ver a mensagem: Que pena, você foi reprovado.
 */
 
+let nota1 = Number(prompt("escreva a primeita nota"));
+let nota2 = Number(prompt("escreva a segunda nota"));
+let nota3 = Number(prompt("escreva a terceira nota");
+
+let mediaFinal = (nota1 + nota2 + nota3)/3:
+
+if(mediaFinal>=7){
+  alert ("Parabéns, você foi aprovado, aproveite suas férias!")
+  
+}
+)
