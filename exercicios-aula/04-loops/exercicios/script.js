@@ -16,7 +16,9 @@
   1. Utilizando a estrutura de repetição for, mostre no console todos números 0 ao 100,
   inclusive esses 2
 */
-
+// for(let contador = 0; contador <= 100; contador++ ){
+//   console.log(contador);
+// }
 
 
 /* 
@@ -32,6 +34,18 @@
   3. Utilizando a estrutura de repetição while, mostre no console apenas os números ímpares de 50 ao 120.
 */
 
+let contador = 50;
+
+while(contador <= 120){
+  if(contador%2!==0){
+ let contador = 50;
+
+while(contador <= 120){
+  if(contador%2!==0){
+    console.log(contador)
+  }
+  contador+=1;
+}
 
 
 /* 
