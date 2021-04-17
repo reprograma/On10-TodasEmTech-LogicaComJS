@@ -5,7 +5,7 @@ console.log(soma)
 let subtração = 10-5;
 console.log(subtração)
 
-let multiplaicação = 5*6;
+let multiplicação = 5*6;
 console.log(multiplaicação)
 
 let divisão = 13/5;
