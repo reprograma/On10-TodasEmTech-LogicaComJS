@@ -14,11 +14,22 @@ if (condition1) {
 } else {
   //  block of code to be executed if the condition1 is false and condition2 is false
 } */
-// Solução:
+// Minha Solução:
 
-senha = prompt("Digite sua senha: ");
+/* senha = prompt("Digite sua senha: ");
 if (senha == 2002) {
   alert("Acesso Permitido");
 } else {
   alert("Senha Inválida");
-}
+} */
+
+
+
+// Solução da professora Viviane Miranda: 
+/* //[Exercício 03](https://www.urionlinejudge.com.br/judge/pt/problems/view/1114)let senha = prompt('Insira a sua senha');
+
+if(senha == '2020'){
+  alert('Acesso permitido')
+}else{
+  alert('Senha incorreta');
+}; */

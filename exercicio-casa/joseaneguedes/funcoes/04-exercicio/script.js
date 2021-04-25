@@ -1,7 +1,7 @@
 //4. Crie uma função que recebe o ano de nascimento da pessoa informando se ela é maior de idade ou menor.
 
 
-const ano = 2009
+/* const ano = 2009
 
 function eMaior(nascimento) {
     const hoje = new Date() .getFullYear()
@@ -13,5 +13,17 @@ if (eMaior(ano)) {
     console.log('É maior de idade')
 } else (eMaior(ano)){
     console.log('É maior de idade')
-}
+} */
 
+// Solucao VIVI
+
+//4. Crie uma função que recebe o ano de nascimento da pessoa informando se ela é maior de idade ou menor.
+
+
+/* function eMaiordeIdade(idade){
+  parseInt(idade);
+  if(idade<18){
+    return console.log('vc é menor de idade')
+  } else {
+    return console.log('vc é maior de idade')
+  } */

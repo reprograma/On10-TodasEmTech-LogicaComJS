@@ -17,7 +17,9 @@ switch (expressão) {
 
 }
 
-*/
+*/ 
+
+// Minha resposta:
 
 let countA = 0
 let countG = 0
@@ -45,3 +47,6 @@ switch (fuel) {
 }
 
 alert(`Quantidade de clientes por tipo combustível: \n Álcool: ${countA} \n Gasolina: ${countG} \n Diesel: ${countD} `);
+
+
+
