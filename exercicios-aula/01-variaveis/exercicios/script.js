@@ -9,13 +9,16 @@
  
 /*  1. Declare uma variável const com a mensagem 'Olá Mundo', exiba no console */
 
+// const msg = "Olá Mundo";
+// console.log(msg);
 
 /* 
 
   2. Declare uma variável let chamada anoNascimento sem atribuir valor
 
 */
-
+let anoNascimento = "";
+console.log(anoNascimento);
 
 /* 
   3. Atribuía o ano que você nasceu na variável anoNascimento e exiba no console

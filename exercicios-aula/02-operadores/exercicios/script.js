@@ -38,6 +38,17 @@
   Obs: Utilizar o Number() para converter o tipo para numero dos dados.
 */
 
+let numero1 = Number(prompt("insira um numero"));
+let numero2 = Number(prompt("insira outro numero"));
+
+let soma = numero1 + numero2;
+
+// alert("a soma é: " + soma);
+
+//template string
+alert(`a soma é: ${soma}`);
+
+// console.log(soma);
 
 
 // 4. Declare uma nova variável chamada `calculadora`, e adicione uma instrução somando os valores 10 e 5.
