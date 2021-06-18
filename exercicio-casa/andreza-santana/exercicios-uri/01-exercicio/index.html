@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>03 - Condições</title>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    h1,
+    h3 {
+      color: purple;
+    }
+
+    th {
+      border-collapse: collapse;
+      border-bottom-style: solid;
+      border-bottom-color: rgb(185, 23, 185);
+      ;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <section>
+      <h1>Lanches</h1>
+      <table>
+        <tr>
+          <th>CÓDIGO</th>
+          <th>ESPECIFICAÇÃO</th>
+          <th>PREÇO</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Cachorro Quente</td>
+          <td>R$ 4,00</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>X-Salada</td>
+          <td>R$ 4,50</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>X-Bacon</td>
+          <td>R$ 5,00</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Torrada Simples</td>
+          <td>R$ 2,00</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Refrigerante</td>
+          <td>R$ 1,50</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <form>
+        <label for="cItem">Código do item:</label><br>
+        <input type="text" id="citem" name="cItem"><br>
+        <label for="qItem">Quantidade do item:</label><br>
+        <input type="text" id="qitem" name="qItem"><br><br>
+        <input type="button" value="calcular" onclick="calcularConta()">
+        <input type="reset" value="limpar" onclick="limparResultado()">
+      </form>
+    </section>
+
+    <section>
+      <h3>Valor da Conta</h3>
+      <p id="result"></p>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
